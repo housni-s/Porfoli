@@ -1,0 +1,66 @@
+
+    h1{
+        color:red;
+        margin-left: 100px; 
+        border:solid;
+        padding:30px
+    }
+    p{
+        color:aquamarine
+    }
+    
+.Header{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+  
+}
+.Menu{
+ margin-right:40px;
+
+}
+.Menu a{
+    margin-left:40px;
+
+
+}
+
+a:link{
+color: blueviolet;
+
+}
+a:visited{
+    color: crimson;
+}
+a:hover{
+    color: darkblue;
+}
+.Allgames{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+.social{
+    display: flex;
+    justify-content:flex-end ;
+}
+body{
+background-color: #808080;
+
+}
+.Onegame{
+    position: relative;
+}
+.Onegame h2{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity:0
+    }
+    .Onegame:hover h2{
+opacity:1
+    }
+.Onegame:hover img{
+opacity:30%
+}
